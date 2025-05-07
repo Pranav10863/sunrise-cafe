@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Sunrise Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">☕ Sunrise Café</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required /><br/><br/>
+      
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required /><br/><br/>
+
+      <label for="message">Message:</label><br/>
+      <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <h2>Visit Us</h2>
+    <p>Malviya Nagar, Sector 20, Jaipur</p>
+    <p>Mon–Sat: 8am–9pm | Sun: 9am–5pm</p>
+    <iframe 
+      src="https://maps.google.com/maps?q=coffee%20shop&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+      width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sunrise Café</p>
+  </footer>
+</body>
+</html>
